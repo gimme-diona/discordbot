@@ -18,7 +18,7 @@ class speedTest(Cog_Extension):
         await ctx.send("準備完成..\n正在開始測試. .. ...")
         download_speed=int(test.download() / 1024 / 1024)
         upload_speed=int(test.upload() / 1024 / 1024)
-        await ctx.send("下载速度：" + str(download_speed) + " Mbits","上传速度：" + str(upload_speed) + " Mbits")
+        await ctx.send(f"下载速度：{str(download_speed)} Mbits"，上传速度： {str(upload_speed)} Mbits")
 
 def setup(bot):
   bot.add_cog(speedTest(bot))
