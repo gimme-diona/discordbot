@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 import json
 import os
-from webserver import keep_alive,run
+from webserver import *
 from threading import Thread
 
 TOKEN = os.environ['token']
