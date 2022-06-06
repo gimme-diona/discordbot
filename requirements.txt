@@ -1,5 +1,5 @@
-discord == "lastest"
-Flask == "lastest"
-speedtest-cli == "lastest"
-PyNaCl == "lastest"
-ffmpeg == "lastest"
+discord
+Flask
+speedtest-cli
+PyNaCl
+ffmpeg
