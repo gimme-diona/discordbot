@@ -23,6 +23,6 @@ def run():
 
 def keep_alive(t):  
 
-    
+    t=Thread(target=run)
 
     t.start()
